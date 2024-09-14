@@ -1,4 +1,4 @@
-https://<Nicola-Galiero>.github.io/<Programmazione-1>/
+Clicca qui per vedere la pagina html del progetto:  https://nicola-galiero.github.io/Programmazione-1/
 
 
 # Programmazione 1
