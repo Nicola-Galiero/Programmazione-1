@@ -1,16 +1,17 @@
 # Programmazione 1
-  
-In questa repository è presente il progetto di Programmazione 1 svolto nell'anno accedemico 2021/2022 (primo semestre).
-Il progetto si basa su due esercitazioni che comprendono argomenti come: generazione di numeri pseudocasuali, matrici, functions, gestione di un database e manipolazione/gestione di dati.
 
+Questa repository contiene il progetto di Programmazione 1 svolto nel primo semestre dell'anno accademico 2021/2022. Il progetto include due esercitazioni che trattano argomenti come la generazione di numeri pseudocasuali, l'uso di matrici, le funzioni (functions), la gestione di un database e la manipolazione dei dati.
 
-Nella cartella C sono presenti i codici e i file Header.h dei rispettivi esercizi: GESTIONE DISCHI e QUADRATO MAGICO.
+# Contenuto della repository
+Cartella C
+Nella cartella C sono presenti i codici sorgente e i file Header.h relativi ai due esercizi: Gestione Dischi e Quadrato Magico.
 
-- Gestione dischi: Il codice implementa un programma per gestire una collezione di dischi divisi in tre categorie (Jazz, Rock, Punk). Consente di inserire, eliminare e visualizzare i dischi, oltre a trovare il disco con il prezzo minore per ogni categoria. Le operazioni sono gestite attraverso array di strutture e funzioni per l'inserimento, la ricerca e l'eliminazione dei dischi.
+Esercizi
+- Gestione Dischi: Questo codice implementa un programma per gestire una collezione di dischi suddivisi in tre categorie (Jazz, Rock, Punk). Consente di inserire, eliminare e visualizzare i dischi, oltre a trovare il disco con il prezzo minore per ciascuna categoria. Le operazioni sono gestite tramite array di strutture e funzioni per l'inserimento, la ricerca e l'eliminazione dei dischi.
 
-- Quadrato magico: Il codice genera 1000 quadrati magici di dimensione definita dall'utente e verifica se sono magici, ossia se la somma di righe, colonne e diagonali è uguale. Alla fine, calcola e visualizza la percentuale di quadrati magici riusciti. I numeri all'interno delle matrici sono generati casualmente.
+- Quadrato Magico: Questo codice genera 1000 quadrati magici di dimensioni definite dall'utente e verifica se sono effettivamente magici, cioè se la somma di righe, colonne e diagonali è uguale. Alla fine, viene calcolata e visualizzata la percentuale di quadrati magici riusciti. I numeri all'interno delle matrici sono generati casualmente.
 
-
-Nel file index.html si può visualizzare una breve presentazione dei progetti. Per ogni esercitazione si possono visualizzare i codici, i risultati in output, il metodo usato, la bibliografia, i problemi riscontrati e una conclusione delle rispettive esercitazioni.
+# File index.html
+Il file index.html fornisce una breve presentazione dei progetti. Per ogni esercitazione, è possibile visualizzare i codici, i risultati in output, il metodo utilizzato, la bibliografia, i problemi riscontrati e una conclusione per ciascun esercizio.
 
 
