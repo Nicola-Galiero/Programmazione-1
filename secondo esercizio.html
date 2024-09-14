@@ -1,0 +1,31 @@
+<html>
+<body bgcolor="c0c0c0">
+	
+	<h1><center>Qui puoi trovare il secondo esercizio.</center></h1>
+	<p style="font-family:arial;font-size:20px";align ="justify">Traccia: <b>**Gestione dischi**</b><br>Si supponga di voler gestire un archivio di dischi. Supponiamo di avere n categorie<br>
+	musicali identificate da un codice numerico e dal nome del genere (jazz, rock, punk,<br>
+	ecc..) e di disporre di possibili dischi identificati da un titolo, autore e prezzo. Per<br>
+	ogni categoria è possibile inserire fino a m prodotti.<br>
+	Gestire l’archivio in modo tale che l’utente possa: <br><br>
+	• Data una categoria inserire un nuovo disco se è possibile. Considerare le<br>
+	posizioni dei prodotti eventualmente venduti.<br>
+	• Dato solo il titolo eliminare un prodotto.<br>
+	• Data le categoria restituire il titolo del disco con prezzo minore (usare un<br>
+	algoritmo divide-et-impera ricorsivo).<br><br>
+	Implementare l’algoritmo per la simulazione per la gestione dei dischi.<br>
+	Effettuare e visualizzare almeno un test per ognuna delle opzioni richieste dall’utente.<br><br><br>
+	</p>
+	<hr/>
+	<p style="font-family:arial;font-size:20px"><a href="C\gestione_dischi\gestione_dischi.c"target=_blank>Clicca qui</a> per aprire il codice sorgente</p>
+	<p style="font-family:arial;font-size:20px"><a href="gestione dischi.html"target=_blank>Clicca qui</a> per visualizzare gli output del programma</p>
+	<hr/>
+	<p style="font-family:arial;font-size:20px"><b>Metodo usato: </b>Ho cercato di svolgere questo esercizio creando molte funzioni che venissero richiamate nel main, in modo da<br>non creare molta confusione nel main stesso. Ogni funzione ha un determinato compito facendo funzionare il programma nel miglior modo possibile.<br><br></p>
+	<p style="font-family:arial;font-size:20px"><b>Bibliografia: </b>Dal browser ho studiato da vari siti;<br>
+**MANUALE CREMONESE - Informatica e telecomunicazioni. Editore Zanichelli - Da questo manuale ho appreso come gestire le<br> struct e gli array di struct;<br>
+**Appunti del corso;<br>
+**MANUALE DI PROGRAMMAZIONE IN C - ESEMPI ED ESERCIZI. Con questo manuale ho approfondito lo studio di alcune funzioni, come <br>l'inserimento e la ricerca binaria.<br><br></p>
+	<p style="font-family:arial;font-size:20px"><b>Problemi riscontrati: </b>Ci sono stati molti problemi che ho riscontrato in questo esercizio. il primo problema era far <br>funzionare le struct in modo da poter creare degli arrey contenenti i campi delle struct. Un altro problema è stato quello <br>di assegnare un array ai dischi, cioè fare in modo che ogni elemento contenesse titolo autore e prezzo di un determinato disco<br> di una determinata categoria. Il problema principale è stato quello della ricerca binaria, perchè non sapevo come <br>impostare l'algoritmo per ogni categoria di dischi, ma dopo vari tentativi ho capito come fare e ho creato una funzione che permettesse la ricerca per ogni categoria <br>con l'approccio divide et impera ricorsivo. Ho risolto la gran parte dei problemi, l'unica nota negativa è che non sono <br>riuscito a rimpiazzare il disco cancellato con un nuovo disco da inserire, dato che se <br>l'utente volesse rimuovere un disco allora ne può inserirne uno nuovo.<br></p>
+	<p style="font-family:arial;font-size:20px"><b>Conclusione: </b>Con questo esercizio ho capito come un singolo linguaggio di programmazione come il C possa rendere possibile <br>tutto questo, come se avessi programmato un intero archivio per la gestione di dischi. Sono soddisfatto del lavoro <br>ottenuto.L'unica nota negativa è che non sono riuscito a rimpiazzare un nuovo disco con un disco cancellato, dato che se <br>l'utente vuole rimuovere un disco allora può inserirne uno nuovo.<br></p>
+	
+</body bgcolor="c0c0c0">
+</html>

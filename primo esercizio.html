@@ -1,0 +1,33 @@
+<html>
+<body bgcolor="c0c0c0">
+	
+	<h1><center>Qui puoi trovare il primo esercizio.</center></h1>
+	<p style="font-family:arial;font-size:20px";align ="justify">Traccia: <b>**Quadrati magici**</b><br> Si vuole implementare un programma per la simulazione del gioco del quadrato<br>
+	magico. Un quadrato è definito magico se la somma di ogni riga, ogni colonna e ogni<br>
+	diagonale è sempre lo stesso numero (costante magica). Ad esempio usando gli interi<br>
+	1,2, …, 9 il seguente è un quadrato magico con somma uguale a 15:<br><br><br>
+	esempio di quadrato magico:<br>
+	<img src="images\cattura.png" width="300px"><br><br>
+	Sviluppare un programma che date le dimensioni del quadrato n x n e numeri interi<br>
+	da 1 a n2 verifichi se la matrice è un quadrato magico. Le matrici vengono generate<br>
+	con numeri casuali. Effettuare ogni test per 1000 volte visualizzando la percentuale<br>
+	di successi.<br>
+	Fare almeno 3 simulazioni variando le dimensioni del quadrato. 
+	</p>
+	<hr/>
+	<p style="font-family:arial;font-size:20px"><a href="C\quadrato_magico\quadrato_magico.c"target=_blank>Clicca qui</a> per aprire il codice sorgente</p>
+	<p style="font-family:arial;font-size:20px"><a href="quadrati magici.html"target=_blank>Clicca qui</a> per visualizzare gli output del programma</p>
+	<hr/>
+	</p>
+<p style="font-family:arial;font-size:20px"><b>Metodo usato: </b><br>Per risolvere questo esercizio ho studiato e approfondito l'uso della generazione di numeri pseudocasuali, comprendendo<br> l'utilizzo di tale funzione.</p>
+	<p style="font-family:arial;font-size:20px"><b>Bibliografia: </b><br>**Dal browser ho studiato da vari siti;<br>
+**MANUALE CREMONESE - Informatica e telecomunicazioni. Editore Zanichelli - Da questo manuale ho appreso le informazioni<br> necessarie per documentarmi sul funzionamento della libreria time.h;<br>
+**Appunti del corso;<br>
+**MANUALE DI PROGRAMMAZIONE IN C - ESEMPI ED ESERCIZI. Mi sono consultato con questo manuale permettendomi di correggere il<br> funzionamento delle varie funzioni e del main;<br></p>
+	<p style="font-family:arial;font-size:20px"><b>Problemi riscontrati: </b><br>Uno dei pochi problemi che ho riscontrato è stato quello della variabile N, cioè fare in modo che il numero di colonne e di righe <br>fossero uguale. Ragionando sul programma ho capito che dovevo inserire un unico valore in input che valesse sia per le <br>colonne sia per le righe.
+Un altro problema riscontrato è stato controllare tutte le somme delle singole allocazioni, in <br>quanto dovevo sommare le allocazioni delle righe, delle colonne e delle diagonali.<br></p>
+	<p style="font-family:arial;font-size:20px"><b>Conclusione: </b><br> La cosa che ho notato è che col codice srand(time(NULL)+500) ho aumentato di 500 volte la possibilità di generare gli stessi <br> numeri, perciò più aumenta il valore N , più aumenta la probabilità che esca un quadrato magico, in quanto le dimensioni della matrice aumentano <br>Questo mi ha permesso di decidere quanto debba essere preciso il programma.<br>Sono riuscito a terminare il programma in minor tempo rispetto a quanto pensassi, risolvendo subito i problemi che mi sono capitati.
+<br>Sono soddisfatto del lavoro che ho fatto, conscio anche di aver imparato la funzione di numeri pseudocasuali.</p>
+	
+</body bgcolor="c0c0c0">
+</html>
